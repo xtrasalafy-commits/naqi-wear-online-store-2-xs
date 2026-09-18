@@ -6,6 +6,7 @@ import Footer from "@/app/components/Footer";
 import BottomNav from "@/app/components/BottomNav";
 import ToastContainer from "@/app/components/Toast";
 import WhatsAppButton from "@/app/components/WhatsAppButton";
+import TrakteerWidget from "@/app/components/TrakteerWidget";
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -17,6 +18,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
         <BottomNav />
         <ToastContainer />
         <WhatsAppButton />
+        <TrakteerWidget />
       </div>
     </StoreProvider>
   );
